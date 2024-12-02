@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+  header {
+    background: linear-gradient(to right, #ffd600, #ffcc00);
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+  }
+  header img {
+    height: 30px;
+    margin-right: 20px;
+  }
+  header nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    margin-right: 15px;
+  }
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .status {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .status-icon {
+    color: green;
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  .status-text {
+    font-size: 18px;
+    color: green;
+    font-weight: bold;
+  }
+  .details {
+    font-size: 14px;
+    color: #666;
+  }
+  .button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: none;
+    border: 1px solid #c00;
+    color: #c00;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .accordion {
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+  }
+  .accordion-item {
+    margin: 10px 0;
+  }
+  .accordion-header {
+    cursor: pointer;
+    padding: 10px;
+    background: #f5f5f5;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .accordion-header:hover {
+    background: #eaeaea;
+  }
+  .accordion-content {
+    display: none;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-top: none;
+    background: #fafafa;
+  }
